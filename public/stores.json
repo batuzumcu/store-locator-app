@@ -1,0 +1,117 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.135351449789685, 38.429821290731084]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "ice-cream",
+        "hours": "10.00 - 22.00",
+        "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+        "address": "Alsancak - Konak / İzmir",
+        "name": "🍰 Patisserie Alsancak",
+        "phone": "+90 530 1234 5678",
+        "storeid": "01"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.145659522405975, 38.43607720633901]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "fast-food",
+        "hours": "11.00 - 23.00",
+        "description": "Come and try our award-winning burgers. We're part of a larger chain of burgers and cafes.",
+        "address": "Talatpaşa Bulvarı, Alsancak - Konak / İzmir",
+        "name": "🍔 Happy Burger",
+        "phone": "+90 530 121 2121",
+        "storeid": "02"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.14028965324113, 38.43255179278338]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "clothing-store",
+        "hours": "09.00 - 22.00",
+        "description": "We are waiting for you to try the designs specially prepared for your body by our designers.",
+        "address": "Gül Sokak, Alsancak - Konak / İzmir",
+        "name": "👗 Creative Design Clothing",
+        "phone": "+90 530 121 2121",
+        "storeid": "03"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.13690904427174, 38.425382033182494]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "coffee",
+        "hours": "07.00 - 22.00",
+        "description": "A delicious array of pastries with many flavours, and fresh coffee in an snug cafe. We're part of a larger chain of patisseries and cafes.",
+        "address": "Gazi Osman Paşa Bulvarı, Alsancak - Konak / İzmir",
+        "name": "☕ Barista Coffee House",
+        "phone": "+90 530 123 4567",
+        "storeid": "04"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.142828968179014, 38.43766673214593]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "pub",
+        "hours": "14.00 - 03.00",
+        "description": "Spoil yourself or someone special with our cocktails.",
+        "address": "Muzaffer İzgü Sk., Alsancak - Konak / İzmir",
+        "name": "🍻 Hangover Pub",
+        "phone": "+90 0530 123 4567",
+        "storeid": "05"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.14050193804343, 38.435877954440734]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "pizza",
+        "hours": "12.00 - 23.00",
+        "description": "Come and feast your eyes and tastebuds on our delicious pizzas. We're part of a larger chain of pizzas.",
+        "address": "Atatürk Cd., Alsancak - Konak / İzmir",
+        "name": "🍕 Pizzateria Roma",
+        "phone": "+90 530 45 67",
+        "storeid": "06"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.144035667901875, 38.435417185275625]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "coffee",
+        "hours": "06.00 - 00.00",
+        "description": "We roast the most special coffee beans from all parts of the world for you.",
+        "address": "Talat Paşa Bulvarı, Alsancak - Konak / İzmir",
+        "name": "☕ Barista Coffee House",
+        "phone": "+90 530 123 4567",
+        "storeid": "07"
+      }
+    }
+  ]
+}

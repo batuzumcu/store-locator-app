@@ -1,0 +1,251 @@
+:root {
+  --color-brand--1: #fff;
+
+  --color-dark--1: #0077b6;
+  --color-dark--2: #42484d;
+  --color-light--1: #f6c7c7;
+  --color-light--2: #ececec;
+  --color-light--3: rgb(220, 224, 214);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: var(--color-light--2);
+  font-weight: 400;
+  line-height: 1.6;
+  height: 100vh;
+  overscroll-behavior-y: none;
+  background-color: #fff;
+  display: flex;
+}
+
+/* GENERAL */
+a:link,
+a:visited {
+  color: var(--color-brand--1);
+}
+
+.logo {
+  margin-top: 2.5rem;
+  height: 3.8rem;
+  padding: 0% 3%;
+  align-self: center;
+  margin-bottom: 4rem;
+}
+
+.store {
+  background-color: var(--color-dark--2);
+  border-radius: 5px;
+  padding: 1.5rem 2.25rem;
+  margin-bottom: 1.75rem;
+  cursor: pointer;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.75rem 1.5rem;
+}
+
+.copyright {
+  margin-top: 580px;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #fff;
+}
+
+#map {
+  flex: 1;
+  height: 100%;
+  background-color: var(--color-light--1);
+  color: #0077b6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0096c7;
+  font-family: "Manrope", sans-serif;
+}
+
+/* Styling for Autocomplete search bar */
+#pac-card {
+  background-color: #0096c7;
+  border-radius: 2px 0 0 2px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  font-family: Roboto;
+  margin: 10px 10px 0 0;
+  -moz-box-sizing: border-box;
+  outline: none;
+}
+
+#pac-container {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+#title {
+  color: #fff;
+  background-color: #0f4c75;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 6px 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Styling for an info pane that slides out from the left. 
+ * Hidden by default. */
+#panel {
+  height: 100%;
+  width: null;
+  background-color: #0077b6;
+}
+
+.open {
+  width: 275px;
+}
+
+.place {
+  font-size: 1.5rem;
+  font-weight: 600;
+  grid-column: 1 / -1;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  padding: 18px 0px 12px;
+}
+
+.distanceText {
+  color: silver;
+  font-family: "open sans", arial, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  margin-block-start: 0.25em;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+/*mobile responsiveness for phone image */
+@media (max-width: 1028px) {
+  #map {
+    height: 100%;
+  }
+
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Styling for Autocomplete search bar */
+  #pac-card {
+    background-color: #0077b6;
+    border-radius: 2px 0 0 2px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    font-family: Roboto;
+    margin: 10px 10px 0 0;
+    -moz-box-sizing: border-box;
+    outline: none;
+  }
+
+  #pac-container {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: 12px;
+  }
+
+  #pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+  }
+
+  #pac-input:focus {
+    border-color: #4d90fe;
+  }
+
+  #title {
+    color: #fff;
+    background-color: #acbcc9;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 6px 12px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  /* Styling for an info pane that slides out from the left. 
+   * Hidden by default. */
+  #panel {
+    height: 100%;
+    width: null;
+    background-color: #0077b6;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: all 0.2s ease-out;
+  }
+
+  .open {
+    width: 100px;
+  }
+
+  .place {
+    font-family: "open sans", arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-block-end: 0px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .distanceText {
+    color: silver;
+    font-family: "open sans", arial, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin-block-start: 0.25em;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}

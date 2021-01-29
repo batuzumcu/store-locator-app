@@ -1,0 +1,16 @@
+{
+  "name": "store-loc",
+  "version": "1.0.0",
+  "description": "Store locator task of OSF Digital technical",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Batuhan Uzumcu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
